@@ -101,7 +101,6 @@ $('#all-character').on('click', '.character', function() {
       }
     }
     $('#all-character').hide();
-
     updateCharacter(attacker, '#selected-character');
     renderEnemies(enemies);
   }
@@ -140,7 +139,6 @@ $('#start').on('click', function() {
         clearMessage();
         restartGame('You have been defeated...GAME OVER!!!');
         $('#start').off('click');
-        
       }
     } else {
       $('#defender').empty();
@@ -148,7 +146,6 @@ $('#start').on('click', function() {
       var gameStateMessage = 'You have defeated ' + defender.name + ', you can choose to fight another enemy.';
       renderMessage(gameStateMessage);
       killCount++;
-
       
         if (killCount >= enemies.length) {
           clearMessage();
