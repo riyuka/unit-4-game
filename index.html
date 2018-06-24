@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Unit-4-game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand|Gamja+Flower" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+</head>
+<body>  
+    <div class="container">
+        
+        <h1>Onmyoji Fight~!</h1>
+
+        <div class="section1">
+                <div class="section-title">Select your character</div>
+                <div id="all-character"></div>
+            </div>
+        
+            <div class="section2">
+                <div class="section-title">Your Character</div>
+                <div id="selected-character"></div>
+            </div>
+
+            <div class="section3">
+                    <div class="section-title">Enemies Available To Attack</div>
+                    <div id="enemies"></div>
+                </div>
+        
+            <div id="fight-section">
+                <button id="start">fight!</button>
+            </div>
+        
+            <div class="action">
+                <div class="character-section">
+                    <div class="section-title">Defender</div>
+                    <div id="defender"></div>
+                    <div id='game-message'></div>
+                </div>
+            </div>
+            
+            <div id='new-button'></div>   
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
